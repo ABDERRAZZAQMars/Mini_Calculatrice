@@ -1,0 +1,57 @@
+.wall {
+    background-image: url("num.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    height: 381px;
+    width: 289.4px;
+    font-family: "Gotham Rounded", sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+.display-screen {
+    background-color: #2b2b2b;
+    height: 70px;
+    width: 289px;
+}
+
+button {
+    border: 0px;
+    margin-top: 2px;
+    height: 60px;
+    width: 69px;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #575757;
+    color: white;
+}
+
+button:active {
+    background-color: #2b2b2b;
+}
+
+.special-button {
+    width: 142px;
+}
+
+.display {
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-right: 4px;
+}
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
